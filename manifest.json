@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "scope": "/virtualArch.github.io/",
-  "start_url": "/virtualArch.github.io/",
+  "scope": "/ecomuseoargentario/",
+  "start_url": "/ecomuseoargentario/",
   "display": "standalone",
   "background_color": "#98c222",
   "theme_color": "#98c222",
