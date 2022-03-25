@@ -1,0 +1,10 @@
+@import url('main.css');
+#map{
+  position: absolute;
+  top:100px;
+  left:0;
+  width:100%;
+  height: calc(100% - 100px);
+  background-color: #fff;
+  z-index:1900;
+}

@@ -1,42 +1,34 @@
-$(document).ready(function() {
-  init();
-  buildCard();
+let lang = getLang();
+if(!lang){setLang('it');}
+let pageFull = getPage();
+let page = pageFull.split('.');
 
-  $("[name=chooseLang]").on('click', function(){
-    localStorage.setItem("lang",$(this).val());
-    init();
+$(document).ready(function() {
+  $("header").load('asset/header.html');
+  $("#wrapMenu").load('asset/menu.html');
+  $("footer").load('asset/footer.html');
+  $('#openMenu')
+    .mouseover(function() { $(this).addClass("opened");})
+    .mouseout(function() { $(this).removeClass("opened");})
+  $("body").on('click',"[name=langSel]", function(){
+    setLang($(this).val())
+    location.reload();
+  })
+  $("body").on('click',"[name=fontSize]", function(){
+    fontSize($(this).val())
   })
 });
 
-function init(){
-  if (!localStorage.lang) {
-    $(".lang").show();
-    $(".langTitle").text('')
-    $(".tourSelect").hide();
-  } else {
-    $(".langTitle").text(gui.tourSelect[localStorage.lang])
-    $(".lang").hide();
-    $(".tourSelect").show();
-  }
+function setLang(lang){ localStorage.setItem("lang",lang); }
+function getLang(){ return localStorage.getItem("lang");}
+function clearAll(){ localStorage.clear();}
+function getPage(){return(location.pathname.substring(location.pathname.lastIndexOf('/')+1));}
+function fontSize(val){
+  let size = parseInt($("main").css("font-size"));
+  size == 16 ? $("#fontDec").prop("disabled", true) : $("#fontDec").prop("disabled", false)
+  size == 25 ? $("#fontInc").prop("disabled", true) : $("#fontInc").prop("disabled", false)
+  let newSize = val == 'inc' ? size + parseInt(1) : size - parseInt(1);
+  $("main").css("font-size", newSize)
 }
-
-function buildCard(){
-  let container = ".tourSelect>div";
-  let imgDir = "img/ico/";
-  for(k in gui.tour){
-    let txtLang = localStorage.getItem('lang') === 'ita' ? gui.tour[k].itaTxt : gui.tour[k].engTxt;
-    let row = $("<div/>",{class:'row'}).appendTo(container);
-    let col = $("<div/>", {class:'col'}).appendTo(row);
-    let card = $("<div/>",{class:'card mb-3', id:k}).appendTo(col);
-    let innerRow = $("<div/>",{class:'row no-gutters'}).appendTo(card);
-    let innerImgCol = $("<div/>", {class:'col-4 p-2 bg-secondary'}).appendTo(innerRow);
-    let innerTxtCol = $("<div/>", {class:'col-8'}).appendTo(innerRow);
-    let img = $("<img/>",{class:'card-img', src:imgDir+gui.tour[k].logo}).appendTo(innerImgCol);
-    let body =$("<div/>",{class:'card-body'}).appendTo(innerTxtCol);
-    let title =$("<h5/>",{class:'card-title txt-titleApp font-weight-bold', text:gui.tour[k].titolo}).appendTo(body);
-    let text =$("<p/>",{class:'card-text text-dark', text:txtLang}).appendTo(body);
-    let link =$("<a/>",{class:'card-link btn btn-sm btn-primary', href:gui.tour[k].link, target:'_blank', text:'open app'}).appendTo(body);
-
-  }
-
-}
+function nl2br(str){return str.replace(/(?:\r\n|\r|\n)/g, '<br>');}
+function cutString(str,length){ return str.split(' ').slice(0, length).join(' ') }

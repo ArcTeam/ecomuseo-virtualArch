@@ -1,23 +1,47 @@
 {
-  "short_name": "VirtualGuide",
-  "name": "Ecomuseo Argentrario - VirtualGuide",
+  "short_name": "VirtualClaudiaAugusta",
+  "name": "Inclusivity on Via Claudia Augusta",
   "icons": [
     {
-      "src": "img/ico/launcher-icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "img/icons/app-icon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
     },
     {
-      "src": "img/ico/launcher-icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "img/icons/app-icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "img/icons/app-icon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/icons/app-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "img/icons/app-icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/icons/app-icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "img/icons/app-icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
-  "scope": "/ecomuseoargentario/",
-  "start_url": "/ecomuseoargentario/",
+  "start_url": "index.html",
+  "scope": ".",
   "display": "standalone",
-  "background_color": "#98c222",
-  "theme_color": "#98c222",
-  "prefer_related_applications": false
-
+  "background_color": "#4f4335",
+  "theme_color": "#4f4335",
+  "description": "La Via Claudia Augusta rappresenta una comune eredità culturale che unisce tre nazioni (Italia, Austria e Germania) e cinque regioni (Lombardia, Veneto, Trentino-Alto Adige, Tirolo, Baviera). Oggi le ricerche sulla Via sono condotte da un’organizzazione transnazionale (Gruppo Europeo d’Interesse Economico VCA), dalle associazioni nazionali (VCA Germania, VCA Austria e VCA Italia) e dal costante interesse di storici e archeologi."
 }
