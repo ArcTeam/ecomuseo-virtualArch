@@ -2,9 +2,26 @@ let lang = getLang();
 if(!lang){setLang('it');}
 let pageFull = getPage();
 let page = pageFull.split('.');
+let header ={
+  it:{
+    title:"inclusività sulla via <span>Claudia Augusta</span>",
+    subTitle:"valorizzazione del tratto <span>lavis-trento</span>"
+  },
+  en:{
+    title:"inclusivity on via <span>Claudia Augusta</span>",
+    subTitle:"enhancement of the <span>Lavis-Trento</span> stretch "
+  },
+  de:{
+    title:"Inklusion auf der via <span>Claudia Augusta</span>",
+    subTitle:"Revitalisierung der Strecke <span>lavis-trento</span>"
+  }
+}
 
 $(document).ready(function() {
-  $("header").load('asset/header.html');
+  $("header").load('asset/header.html',function(){
+    $("#titolo > div").html(header[lang].title);
+    $("#subText").html(header[lang].subTitle);
+  });
   $("#wrapMenu").load('asset/menu.html');
   $("footer").load('asset/footer.html');
   $('#openMenu')

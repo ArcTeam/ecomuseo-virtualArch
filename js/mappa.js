@@ -2,6 +2,7 @@ const osmTile = 'https://{s}.tile-cyclosm.openstreetmap.fr/cyclosm/{z}/{x}/{y}.p
 const osmAttrib='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors';
 const gStreetTile = 'http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}';
 const gSatTile = 'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}';
+const gHybridTile = 'http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}';
 const gTerrainTile = 'http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}';
 const gSubDomains = ['mt0','mt1','mt2','mt3']
 const extent = [[46.1,11.0],[46.2,11.2]]

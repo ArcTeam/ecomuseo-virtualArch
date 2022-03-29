@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "poi_orig",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "nome": "chiesa san Lazzaro", "pannello": 1 }, "geometry": { "type": "Point", "coordinates": [ 11.117964721468523, 46.137516203970058 ] } },
+{ "type": "Feature", "properties": { "id": 2, "nome": "giardino dei ciucioi", "pannello": 1 }, "geometry": { "type": "Point", "coordinates": [ 11.11790848900293, 46.138784040704735 ] } },
+{ "type": "Feature", "properties": { "id": 3, "nome": "torrente avisio", "pannello": 1 }, "geometry": { "type": "Point", "coordinates": [ 11.10980950523825, 46.135355894194724 ] } },
+{ "type": "Feature", "properties": { "id": 4, "nome": "ponte di ferro", "pannello": 1 }, "geometry": { "type": "Point", "coordinates": [ 11.118577968373053, 46.138263052316319 ] } },
+{ "type": "Feature", "properties": { "id": 21, "nome": "villa oss mazzurana", "pannello": 2 }, "geometry": { "type": "Point", "coordinates": [ 11.12005425621485, 46.130392911227744 ] } },
+{ "type": "Feature", "properties": { "id": 22, "nome": "val dei molinari", "pannello": 2 }, "geometry": { "type": "Point", "coordinates": [ 11.117851933016537, 46.132868427378341 ] } },
+{ "type": "Feature", "properties": { "id": 23, "nome": "rio papa", "pannello": 2 }, "geometry": { "type": "Point", "coordinates": [ 11.13058151246527, 46.132081728798781 ] } },
+{ "type": "Feature", "properties": { "id": 31, "nome": "ca' comuna", "pannello": 3 }, "geometry": { "type": "Point", "coordinates": [ 11.123704910011917, 46.130457392060336 ] } },
+{ "type": "Feature", "properties": { "id": 32, "nome": "Argento del Monte Calisio", "pannello": 3 }, "geometry": { "type": "Point", "coordinates": [ 11.14403763152583, 46.097781240559378 ] } },
+{ "type": "Feature", "properties": { "id": 33, "nome": "La barite del Montevaccino", "pannello": 3 }, "geometry": { "type": "Point", "coordinates": [ 11.141555287852119, 46.107174288935148 ] } },
+{ "type": "Feature", "properties": { "id": 41, "nome": "chiesetta di San Martino", "pannello": 4 }, "geometry": { "type": "Point", "coordinates": [ 11.125248769588397, 46.131154515539357 ] } },
+{ "type": "Feature", "properties": { "id": 42, "nome": "Bosco del Meanese", "pannello": 4 }, "geometry": { "type": "Point", "coordinates": [ 11.141209157614266, 46.124846531561765 ] } },
+{ "type": "Feature", "properties": { "id": 51, "nome": "Meano", "pannello": 5 }, "geometry": { "type": "Point", "coordinates": [ 11.11670714342598, 46.124449937993369 ] } },
+{ "type": "Feature", "properties": { "id": 52, "nome": "villa Salvadori-Zanatta", "pannello": 5 }, "geometry": { "type": "Point", "coordinates": [ 11.117024778355987, 46.12204705178624 ] } },
+{ "type": "Feature", "properties": { "id": 53, "nome": "L'orto in Villa", "pannello": 5 }, "geometry": { "type": "Point", "coordinates": [ 11.115176264812373, 46.122194395345034 ] } },
+{ "type": "Feature", "properties": { "id": 54, "nome": "Busa del Pomar", "pannello": 5 }, "geometry": { "type": "Point", "coordinates": [ 11.125953098771635, 46.118734920853313 ] } },
+{ "type": "Feature", "properties": { "id": 61, "nome": "Sito archeologico di Gardolo di Mezzo", "pannello": 6 }, "geometry": { "type": "Point", "coordinates": [ 11.120550817940424, 46.113734315056945 ] } },
+{ "type": "Feature", "properties": { "id": 62, "nome": "Cascata del Mughetto", "pannello": 6 }, "geometry": { "type": "Point", "coordinates": [ 11.127718429205791, 46.116668742209605 ] } },
+{ "type": "Feature", "properties": { "id": 71, "nome": "Orrido di Ponte Alto", "pannello": 7 }, "geometry": { "type": "Point", "coordinates": [ 11.150797120797792, 46.073495128220777 ] } },
+{ "type": "Feature", "properties": { "id": 72, "nome": "I Masi Saracini", "pannello": 7 }, "geometry": { "type": "Point", "coordinates": [ 11.12756130555454, 46.114525600647099 ] } },
+{ "type": "Feature", "properties": { "id": 53, "nome": "La Roggia di Gardolo", "pannello": 7 }, "geometry": { "type": "Point", "coordinates": [ 11.116726705546993, 46.115888699584247 ] } }
+]
+}
