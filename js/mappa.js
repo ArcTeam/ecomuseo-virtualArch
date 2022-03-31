@@ -27,19 +27,31 @@ let gSat = L.tileLayer(gSatTile,{maxZoom: 20, subdomains:gSubDomains});
 let gTerrain = L.tileLayer(gTerrainTile,{maxZoom: 20, subdomains:gSubDomains});
 gStreets.addTo(map)
 
-let marker = L.icon({
-  iconUrl: 'img/icons/marker.png',
+let markerPoi = L.icon({
+  iconUrl: 'img/icons/marker_02.png',
   iconSize: [30, 30],
   iconAnchor: [14, 30],
   popupAnchor: [0, -28]
 });
+let markerPanel = L.icon({
+  iconUrl: 'img/icons/marker_01.png',
+  iconSize: [40, 40],
+  iconAnchor: [20, 35],
+  popupAnchor: [0, -28]
+});
+
+let percorso = L.geoJson(pathJson, { style: sentieroStyle }).addTo(map);
 
 var poi = L.geoJSON(poiJson, {
-  pointToLayer: function (feature, latlng) {
-    return L.marker(latlng, {icon: marker});
-  },
-  onEachFeature: onEachFeature
+  pointToLayer: function (feature, latlng) { return L.marker(latlng, {icon: markerPoi}); },
+  onEachFeature: onEachPoi
 }).addTo(map);
+
+var panel = L.geoJSON(pannelliJson, {
+  pointToLayer: function (feature, latlng) { return L.marker(latlng, {icon: markerPanel}); },
+  onEachFeature: onEachPanel
+}).addTo(map);
+
 
 map.flyToBounds(poi.getBounds())
 var baseLayers = {
@@ -57,14 +69,23 @@ let resetMap = L.Control.extend({
     $("<i/>",{class:'mdi mdi-crosshairs-gps'}).appendTo(btn)
     btn.on('click', function (e) {
       e.preventDefault()
-      map.flyToBounds(extent);
+      map.flyToBounds(poi.getBounds());
     });
     return container;
   }
 })
 map.addControl(new resetMap());
 
-function onEachFeature(feature, layer) {
+map.on('locationfound', onLocationFound);
+map.locate({setView: true, watch: true, maxZoom: 8});
+
+function onLocationFound(e) {
+  var radius = e.accuracy / 2;
+  L.marker(e.latlng).addTo(map).bindPopup("You are here").openPopup();
+  L.circle(e.latlng, radius).addTo(map);
+}
+
+function onEachPoi(feature, layer) {
   let pannello = parseInt(feature.properties.pannello) - 1;
   let poi = feature.properties.poi;
   let title = '<h5>'+pannelli[pannello]['poi'][poi][lang]['nome']+'</h5>';
@@ -72,4 +93,13 @@ function onEachFeature(feature, layer) {
   let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi+']">#view poi</a>';
   var popupContent = title+body+link;
   layer.bindPopup(popupContent);
+}
+
+function onEachPanel(feature,layer){
+  let panel = feature.properties.nome;
+  layer.bindTooltip(panel,{direction:'top',permanent:true,offset: L.point({x: 0, y: -25})}).openTooltip();
+}
+
+function sentieroStyle() {
+  return { opacity: 1, color: 'red', stroke: true, dashArray: '10, 10', weight: 3.0, fillOpacity: 0}
 }
