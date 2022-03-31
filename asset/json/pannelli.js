@@ -237,56 +237,56 @@ const pannelli = [{
     "poi":{
       12:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"La chiesetta San Martino",
+          "testo":"Dell’antica chiesa romanica rimangono solo alcune rovine e il campanile, che secondo la tradizione sarebbe stato ricavato dalla torre di Castel Meano. Le fonti nominano l’edificio dal 1485, ma gli scavi archeologici effettuati durante il restauro hanno messo in luce una fase più antica, oltre ad una struttura preesistente che potrebbe corrispondere al castello.<br>La chiesetta si raggiunge attraverso un sentiero nel bosco e rappresenta uno dei luoghi più suggestivi del Meanese."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Church of San Martino",
+          "testo":"Only a few ruins and the bell tower remain of the ancient Romanesque church, which was obtained from the tower of the Castle of Meano. Sources mention the building since 1485, however during restoration the archaeological excavation brought to light an older phase, as well as a pre-existing structure that could correspond to the Castle of Meano.<br>The church can be reached through a wooden path and is one of the most suggestive sites in the surrounding area."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Die kleine Kirche San Martino",
+          "testo":"Von der alten romanischen Kirche sind nur noch einige Reste und der Glockenturm übrig. Man vermutet, dass der Kirchturm im Turm de Castel Meano seinen Ursprung hat. In einigen Quellen wird das Gebäude ab 1485 zum ersten Mal genannt, aber die archäologischen Ausgrabungen während der Restaurierung haben einen früheren Ursprung und eine bereits vorher bestehende Struktur zum Vorschein gebracht. Diese Struktur könnte dem Schloss entsprechen.<br>Die Kirche erreicht man durch einen Waldweg und das ist einer der schönsten Orte des Meanese."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"LA CHIESETTA DI SAN MARTINO",
+          "testo":"La Chiesetta di San Martino è una chiesa molto antica e si trova a Meano.<br>Oggi della chiesetta resta solo una parte del campanile.<br>Si può raggiungere questa piccola chiesa <br>solo attraverso un sentiero nel bosco.<br>La zona collina dove si trova la chiesa è un luogo meraviglioso."
         }
       },
       13:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"Il bosco sulla collina del Meanese",
+          "testo":"Una fitta rete di sentieri permette di scoprire ambienti naturali unici che la collina del Meanese custodisce: boschi di latifoglie e conifere, praterie, torrenti e zone aride. Le aree boschive sono costituite principalmente da ornielli, querce, aceri, noccioli, pini silvestri, pini neri e in minor misura da roverella. Svariati arbusti e piante erbacee arricchiscono il sottobosco come l’erica, il brugo, i mirtilli e l’uva orsina."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The forest on the hills of the area surrounding Meano",
+          "testo":"A dense network of paths allows explorers to discover a unique natural environment in the surrounding hills: broad leaved trees and coniferous forests, grasslands, a torrent and dry areas. The wooded areas are mainly made up of manna ashes, oaks, maples, hazels, Scotch pines, black pines and, to a lesser degree, downy oaks. Various shrubs and bushes such as heather, ling, blueberries and bearberry enrich the underwood."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Der Wald auf dem Hügel von Meanese",
+          "testo":"Ein dichtes Netz von Wanderwegen macht es möglich, einzigartige, auf dem Hügel von Meano intakte Naturlandschaften zu entdecken: Laub- und Nadelwälder, Wiesen, Bäche und trockene Gebiete.<br>Die Wälder bestehen hauptsächlich aus Blumen-Eschen, Eichen, Ahornbäumen, Haselnusssträuchern, Föhren, Schwarzkiefern und, in geringerer Menge, aus Flaumeichen.<br>Verschiedene Arten von  Büschen und Kräuterpflanzen, wie das Heidekraut, die Besenheide, die Blaubeeren und die Bärentraube, bereichern das Unterholz"
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"IL BOSCO SULLA COLLINA DI MEANO",
+          "testo":"L’ambiente naturale di Meano è ricco di sentieri <br>che portano nei boschi.<br>Nei boschi ci sono molti tipi di piante:<ul><li>querce </li><li>aceri</li><li>noccioli</li><li>vari tipi di pini</li></ul>e nel sottobosco piante di erica, di mirtillo e uva ursina."
         }
       },
       14:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"I rettili, abitanti del bosco",
+          "testo":"I rettili, come la lucertola muraiola, il ramarro occidentale e l’orbettino, sono ampiamente diffusi nel territorio del Meanese. Le aree più soleggiate, i margini dei boschi e le campagne offrono un ambiente ideale a diversi serpenti non velenosi, come il biacco, il saettone  e la natrice tassellata che si incontra di frequente lungo i corsi d’acqua."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The reptiles, inhabitants of the forest",
+          "testo":"Reptiles, such as the wall lizard, the western green lizard and the slow worm, are widely spread in this area.  The sunniest zones, the edges of the woods and the countryside offer an ideal environment for various non-poisonous snakes, such as the green whip snake, the Aesculapian snake and the dice snake, whose presence is popular along the waterways."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Die Reptilien, Bewohner des Waldes",
+          "testo":"Reptilien, wie die Mauereidechse, die westliche Smaragdeidechse und die Blindschleiche sind im Gebiet des Meanese weit verbreitet. Die sonnigsten Gegenden, Waldränder und das Ackerland bieten verschiedenen ungiftigen Schlangen, wie z. B. der gelbgrünen Zornnatter, der Äskulapnatter und der Würfelnatter, die man häufig in der Nähe von Wasserläufen vorfindet, einen idealen Lebensraum."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"I rettili, abitanti del bosco",
+          "testo":"In queste zone trovano l'ambiente giusto per vivere<br>anche alcuni piccoli rettili tra cui:<ul><li>la lucertola muraiola</li><li>il ramarro occidentale</li><li>serpenti non velenosi.</li></ul>"
         }
       }
     }
@@ -301,74 +301,74 @@ const pannelli = [{
     "poi":{
       15:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"Meano e la sua storia",
+          "testo":"Il territorio del Meanese è ricco di testimonianze archeologiche di età preistorica e protostorica. Le prime tracce di frequentazione umana sono tombe con corredo di asce in pietra levigata risalenti al Neolitico finale.<br>All’età romana imperiale risalgono alcune monete e tombe venute alla luce a Meano e Cortesano, unica testimonianza di questo periodo che non permette purtroppo di provare il passaggio della Via Claudia Augusta. I tratti di strada selciata o scavata nella roccia tra San Lazzaro e Gazzadina e tra Meano, Gardolo di Mezzo e Maso Specchio (la cosiddetta “Via Rubra” per il colore rosso del porfido), sono certamente dei percorsi antichi, ma è difficile stabilire l’epoca di costruzione."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"Meano and its history",
+          "testo":"The area surrounding Meano is rich in archaeological remains from the prehistoric and protohistoric ages. The first traces of human presence are tombs with a set of polished stone axes dating back to the final Neolithic (4th millennium BC).<br>Some coins and tombs that were found in Meano and in the nearby town of Cortesano date back to the imperial Roman age. This is the only evidence of this period and unfortunately, it does not testify the passage of the Claudia Augusta track. The stretches of paved road or road carved into the rock between San Lazzaro and Gazzadina and between Meano, Gardolo di Mezzo and Maso Specchio (the so-called 'Via Rubra', due to the red color of the porphyry), are certainly ancient routes, but the era of construction is difficult to define."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Meano und seine Geschichte",
+          "testo":"Das Meanese-Gebiet ist reich an archäologischen Überresten aus der Vor- und Frühgeschichte. Die ersten Spuren menschlicher Präsenz sind Gräber mit geschliffenen Steinäxten aus dem Spätneolithikum (4. Jahrtausend v. Chr.).<br>Einige Münzen und Gräber, die in Meano und Cortesano ans Licht kamen, stammen aus der römischen Kaiserzeit, der einzige Beweis dieser Zeit, der leider nicht reicht, um zu beweisen, dass die Via Claudia Augusta hier verlief.<br>Die gepflasterten oder in den Fels gehauenen Straßenabschnitte zwischen San Lazzaro und Gazzadina sowie zwischen Meano, Gardolo di Mezzo und Maso Specchio (die wegen der roten Farbe des Porphyrs so genannte 'Via Rubra') sind sicherlich alte Wege, aber es ist schwierig, das Bauzeitalter zu bestimmen."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"MEANO E LA SUA STORIA",
+          "testo":"Vicino ai paesi di Meano e Cortesano<br>sono state trovate:<ul> <li>tracce di strade antiche</li><li>oggetti costruiti da uomini di tempi molto antichi</li><li>tombe e strumenti di pietra per tagliare</li></ul>Gli studiosi hanno scoperto anche monete e tombe <br>del periodo dell’Impero romano.<br>Queste scoperte fanno pensare <br>che di lì potesse passare la via Claudia Augusta. <br>Tra S. Lazzaro e Gazzadina <br>e tra Meano e Gardolo di Mezzo <br>si possono vedere parti di antiche strade di pietra o scavate nella roccia."
         }
       },
       16:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"Villa Salvadori-Zanatta",
+          "testo":"La villa fu costruita nell’Ottocento come residenza estiva dei Salvadori-Zanatta di Mori. L’ultima esponente della famiglia, la baronessa Eleonora, nel 1998 donò la sua proprietà all’omonima Fondazione Salvadori-Zanatta, comprese le case e i terreni adiacenti, per un uso a favore degli abitanti di Meano.<br>La villa si trova nel centro del paese e proseguendo il percorso lungo la Via Claudia Augusta è possibile visitare il suo incantevole parco."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"Villa Salvadori-Zanatta",
+          "testo":"The villa was built in the nineteenth century as a summer residence for the Salvadori-Zanatta family, hailing from Mori. In 1988 the last member of the family, Baroness Eleonora, donated her property to the Salvadori-Zanatta Foundation, including the houses and neighboring land, to be used by the inhabitants of Meano.<br>The villa is located in the center of the town: it is possible to visit its enchanting park by following the path along the Claudia Augusta track."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Villa Salvadori-Zanatta",
+          "testo":"Die Villa wurde im 19. Jahrhundert als Sommerresidenz der Familie Salvadori-Zanatta aus Mori erbaut. 1998 schenkte das letzte Familienmitglied, Baroness Eleonora, ihr Eigentum einschließlich der Häuser und des angrenzenden Landes der Salvadori-Zanatta-Stiftung zur Nutzung seitens der Einwohner von Meano.<br>Die Villa befindet sich mitten im Dorf: Wenn man auf der Via Claudia Augusta weitergeht, kann man ihren bezaubernden Park besuchen."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"VILLA SALVADORI-ZANATTA ",
+          "testo":"Nel 1998 la baronessa Eleonora <br>donò al paese di Meano la villa, <br>il parco e le altre case.<br>La Fondazione Salvadori-Zanatta se ne prende cura,<br>come spazio aperto a tutte le famiglie del luogo."
         }
       },
       17:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"L’Orto in Villa",
+          "testo":"All’interno del Parco di Villa Salvadori-Zanatta si trova “L’Orto in Villa”, un orto-giardino didattico visitabile liberamente. La magia di questo luogo comunitario sta nella sua semplicità e nelle tante piccole meraviglie della natura che si trovano al suo interno. Tutto ciò che serve per scoprire questo regno di biodiversità e agricoltura sostenibile sono occhi e mente spalancati, buon olfatto e udito."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Garden surrounding the Villa",
+          "testo":"The park of Villa Salvadori-Zanatta hosts “L’Orto in Villa”, an educational vegetable garden that can be visited freely. The magic of this community place lies in its simplicity and in the many small wonders of nature that can be found inside. All you need to discover this realm of biodiversity and sustainable agriculture are wide open eyes, an open mind and a good sense of smell and hearing."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Der Garten der Villa",
+          "testo":"Im Park der Villa Salvadori-Zanatta befindet sich L’Orto in Villa, ein didaktischer Gemüsegarten, der frei besichtigt werden kann. Der Zauber dieses Gemeinschaftsortes liegt in seiner Einfachheit und in den vielen kleinen Naturwundern, die sich hier befinden. Alles, was man braucht, um dieses Reich der biologischen Vielfalt und der nachhaltigen Landwirtschaft zu entdecken, sind große Augen und Verstand, guter Geruch und Gehör."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"L’ORTO IN VILLA",
+          "testo":"Nel parco della Villa<br>si puo’ visitare l’Orto in Villa<br>coltivato in modo naturale.<br>In questo orto ci sono tante piante diverse da vedere e annusare."
         }
       },
       18:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"La Busa del Pomar",
+          "testo":"A poca distanza dal paese di Meano, nascosta nella boscaglia, c’è la “Busa del Pomar”, una delle tante antiche miniere presenti sull’Altipiano del Monte Calisio (le cosiddette canòpe).<br>Fu chiusa e riaperta a più riprese prima per l’estrazione dell’argento, nel Medioevo, e poi della barite nel secolo scorso. Durante la Seconda Guerra Mondiale fu utilizzata come rifugio antiaereo e in seguito per la coltivazione dei funghi. Oggi è un habitat ideale per i pipistrelli. <br>Il nome della Busa deriva dal Maso Pomar che sorge poco lontano, così chiamato per il meleto che lo circondava."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The “Busa del Pomar”",
+          "testo":"Near the village of Meano, hidden in the bush, is the “Busa del Pomar”, one of the many ancient mines on the Mount Calisio Plateau (the so-called “canope”). The mine has been closed and reopened several times: it was used in the Middle Ages for the extraction of silver, and then, over the last century, it served as a barite mine. During the Second World War it was used as an air raid shelter and later for the cultivation of mushrooms. Today it is the ideal habitat for bats.<br>The name of the “Busa” derives from “Maso Pomar”, located not far away and deriving its name from the apple orchard that used to surround it. “Pomar”, in fact, is the local dialect word for “apple tree”."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Die Busa del Pomar",
+          "testo":"Nicht weit vom Dorf Meano entfernt, m Gehölz verborgen, befindet sich die Busa del Pomar, eine der vielen alten Minen auf der Hochebene des Monte Calisio (die so genannten Canopes). Sie wurde mehrere Male geschlossen und wiedereröffnet, zuerst im Mittelalter für die Silbergewinnung und dann im letzten Jahrhundert für Baryt . Während des Zweiten Weltkrieges diente sie als Luftschutzkeller und später zur Pilzzucht. Heute ist sie ein idealer Lebensraum für Fledermäuse.<br>Der Name der Busa stammt von dem nicht weit entfernt liegenden Maso Pomar, welcher wiederum nach dem ihn umgebenden Apfelgarten benannt wurde."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"LA BUSA DEL POMAR",
+          "testo":"Nei boschi di Meano si trova un’antica miniera, <br>chiamata la Busa del Pomar.<br>La miniera è una stretta galleria scavata tra la roccia <br>per cercare i minerali. <br>Nel Medioevo si scavava per cercare l’argento,<br>nel secolo scorso è stata scoperta la barite.<br>Durante la Seconda Guerra Mondiale la miniera è stata usata come rifugio  <br>e dopo per far crescere funghi da mangiare. <br>Oggi è un ambiente ideale per i pipistrelli.<br>Salendo dalla strada troviamo Maso Pomar <br>che è una grande casa in mezzo agli alberi di mele. "
         }
       }
     }
@@ -383,38 +383,38 @@ const pannelli = [{
     "poi":{
       19:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"Il sito archeologico di Gardolo di Mezzo",
+          "testo":"Il sito di Gardolo di Mezzo si trova su un vasto terrazzo naturalmente protetto a nord e a sud da due corsi d'acqua e delimitato  a est dalle pendici del Doss de La Luna, sulla cui sommità sono presenti pochi resti di un castello medievale.<br>Nel 2003 un cantiere edile ha messo in luce un’area archeologica molto estesa e di grande interesse scientifico, studiata dalla Soprintendenza per i Beni culturali della Provincia autonoma di Trento. Le testimonianze più antiche risalgono all’età del Rame e comprendono impianti di lavorazione del metallo, strutture funerarie e un’area abitativa. Nella successiva età del Bronzo è documentata la presenza di un luogo sacro con due monumentali strutture a tumulo e di una più recente necropoli a cremazione.<br>Le tracce archeologiche dimostrano che l’area è stata occupata anche nell’età del Ferro e successivamente in epoca tardoantica e altomedievale."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"Archaeological site of Gardolo di Mezzo ",
+          "testo":"The site of Gardolo di Mezzo is located on a large terrace. It is naturally protected to the north and south by two rivers and bordered to the east by the sides of the Doss de la Luna. On the top of this hill there are few ruins of a medieval castle.  In 2003 a large archaeological area of ​​great scientific interest was found by builders through a working construction site. This area is being studied by the Cultural Heritage Division of the Autonomous Province of Trento.  The stable presence of the population has been demonstrated since the Age of Metals.The oldest ruins dated back to the Copper age (between the mid-4th and mid-3rd millennium BC) and include a copper forge, funerary structures and a dwelling area. Some houses, a cemetery, a copper forge and a sacred area were found."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Archäologische Stätte in Gardolo di Mezzo",
+          "testo":"Die archäologische Stätte von Gardolo di Mezzo liegt auf einer großen Terrasse, die im Norden und im Süden von zwei Flüssen geschützt und im Osten von den Hängen des Doss de la Luna begrenzt wird, auf dessen Spitze Reste einer mittelalterlichen Burg sind. Im Jahr 2003 entdeckte man bei Bauarbeiten eine sehr große archäologische Stätte von großem wissenschaftlichen Interesse, die von dem Landesdenkmalamt der Autonomen Provinz Trient untersucht wird. Die ältesten Überreste stammen aus der Kupferzeit (Mitte 4. bis Mitte 3. Jahrtausend v.C.), darunter metallverarbeitende Anlagen, Grabbauten und ein Wohnbereich. Die dauerhafte Präsenz von Bevölkerungen ist seit dem Metallzeitalter nachgewiesen. Es wurden Häuser, ein Friedhof, eine Werkstatt für die Kupferbearbeitung und ein sakraler Bereich gefunden."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"SITO ARCHEOLOGICO DI GARDOLO DI MEZZO",
+          "testo":"Il territorio di Gardolo di Mezzo <br>è una terrazza naturale tra due corsi d’acqua<br>dove sono stati trovati resti<br>che indicano la presenza stabile<br>di popolazioni fin dall’antichità.<br>I primi abitanti di Gardolo di Mezzo lavoravano il rame."
         }
       },
       20:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"Il Rio Carpine e la cascata del Mughetto",
+          "testo":"Il corso del Rio di Carpine, il cui nome deriva verosimilmente dal carpino nero, inizia nei pressi di Montevaccino e percorre una valle selvaggia sita tra gli abitati di Meano e Gardolo di Mezzo per proseguire poi verso Gardolo. A metà del suo corso, il Rio incontra un salto di roccia e forma la Cascata del Mughetto. Le sue acque limpide ospitano il gambero di fiume e diversi anfibi, quali la rana comune e la salamandra pezzata. L’umidità e l’ombra facilitano lo sviluppo di un rigoglioso sottobosco composto da felci ed edera."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Rio Carpine and the Mughetto Waterfall",
+          "testo":"The route of the Rio Carpine, whose name probably derives from the hornbeam, begins near the village of Montevaccino and runs through a wild valley located between Meano and Gardolo di Mezzo. Then it continues towards Gardolo. Through its route, the Rio (river) forms the Mughetto Waterfall. Its clear waters are home to crayfish and various amphibians, such as the common frog and the fire salamander. Humidity and shade facilitate the development of a lush undergrowth made up of ferns and ivy.<br>The wild plants that are found along the Claudia Augusta track, are also being grown at the Garden in Villa in the park of Villa Salvadori-Zanatta in Meano."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Rio Carpine und der Wasserfall Mughetto",
+          "testo":"Der Lauf des Rio di Carpine, dessen Name wahrscheinlich von der Schwarzen Hainbuche stammt, beginnt in der Nähe von Montevaccino und verläuft durch ein wildes Tal zwischen den Ortschaften Meano und Gardolo di Mezzo und dann weiter nach Gardolo. Mitten in seinem Lauf trifft der Rio auf einen Felsensprung und bildet den Mughetto-Wasserfall. Sein klares Wasser beherbergt Krebse und verschiedene Amphibien, wie den Grasfrosch und den Feuersalamander. Feuchtigkeit und Schatten helfen dabei, ein üppiges Unterholz zu entwickeln, das aus Farnen und Efeu besteht."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"IL RIO CARPINE E LA CASCATA DEL MUGHETTO",
+          "testo":"Il Rio Carpine nasce a Montevaccino<br>passa tra Meano e Gardolo di Mezzo<br>e arriva a Gardolo.<br>Forse il suo nome deriva<br> da quello della pianta Carpino Nero.<br>Durante il suo corso forma la Cascata del Mughetto.<br>Nel Rio Carpine vivono diversi animali<br>ad esempio: il gambero di fiume, la rana e la salamandra.<br>Vicino al Rio Carpine crescono felci ed edere."
         }
       }
     }
@@ -429,56 +429,56 @@ const pannelli = [{
     "poi":{
       21:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"L’Orrido di Ponte Alto",
+          "testo":"Proseguendo lungo la Via Claudia Augusta si giunge all'Orrido di Ponte Alto nei pressi di Cognola. È una profonda gola scavata dalle acque tumultuose del Torrente Fersina nel corso di migliaia di anni, nella quale si possono ammirare due grandi cascate.<br>L’Orrido riveste un notevole interesse anche nell’ambito della storia dell’ingegneria idraulica. Il primo sbarramento costruito per trattenere i detriti trasportati dal torrente (la Serra di Ponte Alto) risale infatti al Cinquecento.<br>L’Orrido è accessibile al pubblico con delle visite guidate (<a href='https://www.ecoargentario.it/orridopontealto#regdl=orrido-di-ponte-alto-visita-guidata' target='_blank' title='direct link'>www.orridopontealto.it</a>)."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Orrido of Ponte Alto (Ponte Alto gorge)",
+          "testo":"The Orrido of Ponte Alto (Ponte Alto gorge), is situated along the Claudia Augusta track near the village of Cognola. The cave, carved over thousands of years by the waters of the Fersina river, displays two jaw dropping waterfalls. This gorge is particularly interesting from the point of view of water engineering. The first barrier, named “Serra di Ponte Alto”, dates back to the 1500s and was conceived to hold back the river debris. Visitors can book a tour on  (<a href='https://www.ecoargentario.it/orridopontealto#regdl=orrido-di-ponte-alto-visita-guidata' target='_blank' title='direct link'>www.orridopontealto.it</a>)."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Orrido di Ponte Alto",
+          "testo":"Geht man auf der Via Claudia Augusta weiter, erreicht man bei Cognola den Orrido di Ponte Alto.<br>Es ist eine tiefe, über Jahrtausende von dem stürmischen Wasser des Baches<br>Fersina gegrabene Schlucht, in der zwei große Wasserfälle zu bewundern sind.<br>Auch in der Geschichte des Wasserbaus ist die Schlucht von großer Bedeutung. Der erste Damm (Serra di Ponte Alto), der gebaut wurde, um das vom Bach mitgeführte Geröll zurückzuhalten, stammt aus dem 16. Jahrhundert.<br>Die Schlucht ist für die Öffentlichkeit mit Führungen zugänglich. (<a href='https://www.ecoargentario.it/orridopontealto#regdl=orrido-di-ponte-alto-visita-guidata' target='_blank' title='direct link'>www.orridopontealto.it</a>)."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"L’ORRIDO DI PONTE ALTO",
+          "testo":"Il torrente Fersina scende dalla Valle dei Mocheni <br>fino a Trento. <br>Vicino a Cognola le acque precipitano dalla roccia<br>e in migliaia di anni<br>hanno scavato una valle stretta e profonda <br>chiamata Orrido di Ponte Alto. <br>In questo luogo ora ci sono due grandi cascate.<br>Nel 1500 è stata costruita la prima diga in legno<br>per fermare i pezzi di roccia e altri materiali trasportati dal torrente, <br>che potevano creare danni per la città<br>quando il torrente era in piena."
         }
       },
       22:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"I Masi Saracini",
+          "testo":"Salendo da Gardolo di Mezzo a Cortesano, s’incontra un pianoro tenuto in gran parte a prato in cui sorge il complesso dei Masi Saracini, un importante insediamento risalente almeno al Cinquecento.<br>La casa padronale è un massiccio edificio con un grande parco, all’ingresso del quale si trova una cappella settecentesca dedicata ai Santi Leonardo e Antonio."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Masi Saracini (Saracini farmhouses) ",
+          "testo":"The road from Gardolo di Mezzo to Cortesano leads to meadows surrounding the Masi Saracini (Saracini farmhouses). This used to be an important settlement dating back to the 1500s. The main house is a massive building with a huge park. A 18th-century chapel dedicated to St Anthony and St Leonard welcomes visitors."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Die Sarazenenhöfe",
+          "testo":"Steigt man von Gardolo di Mezzo nach Cortesano auf, gelangt man auf eine<br>Hochebene, die hauptsächlich als Wiese genutzt wird und auf der sich die Anlage Masi Saracini befindet, eine bedeutende, mindestens auf das 16. Jahrhundert zurückgehende Siedlung.<br>Das Herrenhaus ist ein massives Gebäude mit einem großen Park, an dessen Eingang sich eine den Heiligen Leonardo und Antonio gewidmete  Kapelle aus dem 18. Jahrhundert befindet."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"I MASI SARACINI",
+          "testo":"I Masi Saracini si trovano tra Gardolo di Mezzo e Cortesano <br>e sono alcune ville di campagna del 1500:<br>tra queste la grande casa padronale, <br>circondata da un parco.<br> All’ingresso del parco c’è una piccola chiesetta <br>che risale al 1700."
         }
       },
       23:{
         "it":{
-          "nome":"",
-          "testo":""
+          "nome":"La Roggia di Gardolo",
+          "testo":"La roggia di Gardolo, conosciuta con il termine dialettale Ròza, è un canale artificiale che scende da Montevaccino, costeggia Gardolo di Mezzo, attraversa l’abitato di Gardolo e confluisce nell'Adige. Le rogge erano utilizzate fin dal Medioevo per il trasporto del legname e per alimentare i mulini.<br>Nel 1996, in seguito a una serie di piene, venne costruita una piccola diga all'altezza di Gardolo di Mezzo per regolare il regime delle acque e per produrre energia idroelettrica. Fu poi interrato un tratto della roggia che attraversava il paese di Gardolo, abbattendo il ponticello che si trovava nei pressi della chiesa."
         },
         "en":{
-          "nome":"",
-          "testo":""
+          "nome":"The Canal of Gardolo ",
+          "testo":"The Canal of Gardolo, known in the local dialect as “Ròza”, is an artificial waterway. It flows from the town of Montevaccino, passing through the center of Gardolo and finally flows into the Adige river. During the Middle Ages this waterway was used to transport timber and to power mills. <br>In 1996, after a few floods, a small dam was built in the area surrounding Gardolo di Mezzo to regulate the water levels and to produce hydroelectric energy. <br>After a few years a part of the canal was buried, and the bridge near the church was dismantled."
         },
         "de":{
-          "nome":"",
-          "testo":""
+          "nome":"Die Roggia di Gardolo",
+          "testo":"Die Roggia di Gardolo, im Dialekt Ròza, ist ein Kanal, der von Montevaccino abfällt, entlang Gardolo di Mezzo verläuft, die Stadt Gardolo durchquert und in die Etsch mündet. Solche Kanäle wurden seit dem Mittelalter zum Holztransport und zum<br>Antrieb der Mühlen genutzt.<br>1996 wurde bei Gardolo di Mezzo nach einigen  Überschwemmungen ein kleiner<br>Damm gebaut, um den Wasserstand zu regulieren und Wasserkraft zu erzeugen. Ein Teil des Kanals, der Gardolo durchquert, wurde unterirdisch verlegt, weshalb die kleine Brücke bei der Kirche entfernt wurde."
         },
         "etr":{
-          "nome":"",
-          "testo":""
+          "nome":"LA ROGGIA DI GARDOLO",
+          "testo":"La Roggia di Gardolo è un piccolo canale costruito dall’uomo <br>ed è chiamata in dialetto Ròza.<br>La Roggia di Gardolo parte da Montevaccino <br>passa da diversi paesi <br>e arriva nel fiume Adige.<br>Tanti anni fa le rogge erano usate<br>per trasportare il legno <br>e per far girare le ruote dei mulini <br>con la forza dell’acqua. <br>Quando pioveva molto<br>l’acqua inondava i paesi<br>così nel 1996 è stata costruita una piccola diga <br>per rallentare l’acqua della roggia."
         }
       }
     }

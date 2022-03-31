@@ -6,7 +6,18 @@ const gHybridTile = 'http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}';
 const gTerrainTile = 'http://{s}.google.com/vt/lyrs=p&x={x}&y={y}&z={z}';
 const gSubDomains = ['mt0','mt1','mt2','mt3']
 const extent = [[46.1,11.0],[46.2,11.2]]
+
+
+
 $(document).ready(function() {
+  console.log(pannelli[0]['poi'][1][lang]['nome']);
+  console.log(pannelli);
+  $("body").on('click','.link-poi', function(e){
+    e.preventDefault();
+    let poi = $(this).data('poi');
+    localStorage.setItem("poi", poi);
+    window.location.href='poi.html';
+  })
 });
 
 var map = L.map('map').fitBounds(extent);
@@ -14,7 +25,23 @@ let osm = L.tileLayer(osmTile, {attribution: osmAttrib});
 let gStreets = L.tileLayer(gStreetTile,{maxZoom: 20, subdomains:gSubDomains });
 let gSat = L.tileLayer(gSatTile,{maxZoom: 20, subdomains:gSubDomains});
 let gTerrain = L.tileLayer(gTerrainTile,{maxZoom: 20, subdomains:gSubDomains});
-gTerrain.addTo(map)
+gStreets.addTo(map)
+
+let marker = L.icon({
+  iconUrl: 'img/icons/marker.png',
+  iconSize: [32, 37],
+  iconAnchor: [16, 37],
+  popupAnchor: [0, -28]
+});
+
+var poi = L.geoJSON(poiJson, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: marker});
+  },
+  onEachFeature: onEachFeature
+}).addTo(map);
+
+map.flyToBounds(poi.getBounds())
 var baseLayers = {
   "Terrain":gTerrain,
   "Satellite": gSat,
@@ -36,3 +63,12 @@ let resetMap = L.Control.extend({
   }
 })
 map.addControl(new resetMap());
+
+function onEachFeature(feature, layer) {
+  let pannello = parseInt(feature.properties.pannello) - 1;
+  let poi = feature.properties.poi;
+  let title = '<h5>'+pannelli[pannello]['poi'][poi][lang]['nome']+'</h5>';
+  let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi+']">'+feature.properties.nome+'</a>';
+  var popupContent = title+link;
+  layer.bindPopup(popupContent);
+}

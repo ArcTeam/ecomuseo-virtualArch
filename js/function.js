@@ -18,10 +18,7 @@ let header ={
 }
 
 $(document).ready(function() {
-  $("header").load('asset/header.html',function(){
-    $("#titolo > div").html(header[lang].title);
-    $("#subText").html(header[lang].subTitle);
-  });
+  $("header").load('asset/header.html',initHeader);
   $("#wrapMenu").load('asset/menu.html');
   $("footer").load('asset/footer.html');
   $('#openMenu')
@@ -36,6 +33,10 @@ $(document).ready(function() {
   })
 });
 
+function initHeader(){
+  $("#titolo > div").html(header[lang].title);
+  $("#subText").html(header[lang].subTitle);
+}
 function setLang(lang){ localStorage.setItem("lang",lang); }
 function getLang(){ return localStorage.getItem("lang");}
 function clearAll(){ localStorage.clear();}
@@ -49,3 +50,22 @@ function fontSize(val){
 }
 function nl2br(str){return str.replace(/(?:\r\n|\r|\n)/g, '<br>');}
 function cutString(str,length){ return str.split(' ').slice(0, length).join(' ') }
+
+// jquery extend function
+$.extend({
+  redirectPost: function(location, args){
+    const form = $('<form></form>');
+    form.attr("method", "post");
+    form.attr("action", location);
+    $.each( args, function( key, value ) {
+      let field = $('<input></input>');
+      field.attr("type", "hidden");
+      field.attr("name", key);
+      field.attr("value", value);
+      form.append(field);
+    });
+    $(form).appendTo('body').submit();
+  }
+});
+
+//$.redirectPost('workPage.php', {id: v.id});
