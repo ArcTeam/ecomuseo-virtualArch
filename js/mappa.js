@@ -29,8 +29,8 @@ gStreets.addTo(map)
 
 let marker = L.icon({
   iconUrl: 'img/icons/marker.png',
-  iconSize: [32, 37],
-  iconAnchor: [16, 37],
+  iconSize: [30, 30],
+  iconAnchor: [14, 30],
   popupAnchor: [0, -28]
 });
 
@@ -68,7 +68,8 @@ function onEachFeature(feature, layer) {
   let pannello = parseInt(feature.properties.pannello) - 1;
   let poi = feature.properties.poi;
   let title = '<h5>'+pannelli[pannello]['poi'][poi][lang]['nome']+'</h5>';
-  let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi+']">'+feature.properties.nome+'</a>';
-  var popupContent = title+link;
+  let body = '<p>'+cutString(pannelli[pannello]['poi'][poi][lang]['testo'],30) + '...</p>';
+  let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi+']">#view poi</a>';
+  var popupContent = title+body+link;
   layer.bindPopup(popupContent);
 }
