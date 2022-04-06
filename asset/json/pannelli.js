@@ -6,8 +6,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L’Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Il Giardino Bortolotti detto dei Ciucioi nei primi anni ‘50 - Collezione privata Fratelli Paolo e Silvano Marcon Lavis","Il Ponte di ferro con ferrovia – Collezione privata Famiglia Enzo Marcon"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L’Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Il Giardino Bortolotti detto dei Ciucioi nei primi anni ‘50 - Collezione privata Fratelli Paolo e Silvano Marcon Lavis","Il Ponte di ferro con ferrovia – Collezione privata Famiglia Enzo Marcon"],
     "audio":["p1_de.mp3","p1_en.mp3","p1_etr.mp3","p1_it.mp3"],
-    "poi":{
-      1:{
+    "poi":[
+      {
+        "id":1,
         "it":{
           "nome": "La chiesetta di san Lazzaro",
           "testo":"La chiesa dedicata a San Lazzaro e Santa Giuliana faceva parte di un convento-ospedale presente presso il ponte sull’Avisio fin dal Duecento. Queste strutture di accoglienza erano comuni nel Medioevo e si trovavano lungo le principali vie di comunicazione.<br>L'edificio presenta ancora alcuni caratteri romanici, come il portale, la bifora e alcuni affreschi sulla facciata.<br>Accanto alla chiesa si trova il sentiero lastricato che sale verso Camparta Media, inizio del nostro percorso lungo la Via Claudia Augusta."
@@ -24,8 +25,8 @@ const pannelli = [{
           "nome":"LA CHIESA DI SAN LAZZARO",
           "testo":"Nel 1200 dopo Cristo, vicino al ponte sull’Avisio,<br>una comunità di frati<br>si prendeva cura dei malati e li ospitava.<br>Per questo la casa fu dedicata<br>a San Lazzaro e a Santa Giuliana.<br>Alcuni anni dopo fu costruita anche una chiesa<br>secondo l’arte romanica del tempo<br>pensata per riunire la popolazione.<br>Vicino alla chiesa si trova il sentiero.<br>prosegue il nostro percorso."
         }
-      },
-      2:{
+      },{
+        "id":2,
         "it":{
           "nome": "Il Giardino dei Ciucioi",
           "testo":"Al di là del ponte di ferro, sulla sponda di Lavis, è visibile un’architettura molto originale. Si tratta di un giardino pensile realizzato alla metà dell’Ottocento per volontà di Tommaso Bortolotti, imprenditore visionario che fece di quest’opera la sua ragione di vita.<br>Il nome deriva probabilmente da Zum Zoll (alla dogana) dato che l’Avisio era il confine fra il Principato Vescovile di Trento e la Contea del Tirolo.<br>Il Giardino è accessibile al pubblico: per info <a href='https://www.ecoargentario.it/giardinodeiciucioi' target='_blank' title='direct link'>www.giardinociucioi.it.</a>"
@@ -42,8 +43,8 @@ const pannelli = [{
           "nome":"Il Giardino dei Ciucioi",
           "testo":"Al di là del ponte di ferro di Lavis<br>si vede una grande costruzione sulla roccia.<br>Verso la metà del 1800<br>l'architetto Tommaso Bortolotti<br>fece costruire un giardino che sale sul dosso.<br>Questo giardino era formato<br>da terrazze di piante e fiori<br>e percorsi lungo molti gradini."
         }
-      },
-      3:{
+      },{
+        "id":3,
         "it":{
           "nome": "Il Torrente Avisio",
           "testo":"Il torrente Avisio nasce dalla Marmolada e scorre attraverso le valli di Fassa, di Fiemme e di Cembra per poi confluire nelle acque dell'Adige a poco più di 1 km da Lavis.<br>Un tempo veniva utilizzato per la fluitazione del legname che si raccoglieva al <strong>Pont dei Vodi</strong>.<br>Poco a nord del paese si trova la Serra di San Giorgio, uno sbarramento costruito a fine Ottocento per frenare i detriti portati dal fiume.<br>La foce dell'Avisio è un'area protetta (biotopo) nella quale si trovano diverse specie di uccelli, pesci, anfibi e rettili, raggiungibile con una comoda passeggiata."
@@ -60,8 +61,8 @@ const pannelli = [{
           "nome":"Il Torrente Avisio",
           "testo":"Il torrente Avisio scorre per le valli del Trentino:<br>nel suo percorso raccoglie sempre più acqua,<br>fino a perdersi nel fiume Adige.<br>Un tempo, quando l'Avisio era pieno d'acqua,<br>si poteva trasportare fino a Lavis il legname dei boschi.<br>La forza dell'acqua che scorre<br>spingeva i tronchi legati insieme,<br>fino a raggiungere le industrie le strade principali<br>dove veniva raccolto e portato nelle industrie<br>che lavoravano il legno."
         }
-      },
-      4:{
+      },{
+        "id":4,
         "it":{
           "nome": "Il ponte di Lavis",
           "testo":"Il ponte di ferro sul torrente Avisio ha una storia travagliata. In origine era stato costruito in legno e fino alla fine del Cinquecento si trovava un po' più a valle di oggi. Dopo essere stato più volte distrutto e ricostruito, nel 1878 fu realizzato in forma simile a quella attuale e dal 1909 fu attraversato dal treno della linea Trento-Malé.<br>Per ridurre il traffico nel paese fu progettato un nuovo ponte dedicato a San Giovanni Bosco, inaugurato nel 1934, da cui ora passa la strada statale. Un altro ponte si trova presso la foce dell'Avisio: è il cosiddetto <strong>Ponte dei Vodi</strong> progettato dall'architetto Luigi Negrelli nel 1856, su cui transita la ferrovia del Brennero. Per approfondimenti: <a href='https://www.ilmulo.it/2021/06/23/lavis-la-storia-del-pont-de-fer/' target='_blank' title='direct link'>www.ilmulo.it.</a><br>Le piante spontanee lungo la Via Claudia Augusta, le troviamo coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano."
@@ -79,7 +80,7 @@ const pannelli = [{
           "testo":"Lavis è unita alla zona di S. Lazzaro<br>con un ponte sul torrente Avisio.<br>Questo ponte di ferro ha una lunga storia,<br>che forse inizia  con l'Impero romano.<br>Una volta il ponte era di pietra,<br>poi tutto in legno.<br>Nel 1500 il ponte era costruito in legno<br>e attraversava il fiume in un altro punto.<br>fu costruito un nuovo ponte in legno,<br>coperto da un tetto, molto bello.<br>Il ponte fu distrutto con le guerre<br>tre secoli dopo.<br>Da allora il ponte fu sempre ricostruito di ferro<br>e ci passava la ferrovia.<br>Dal 1800 si aggiunsero altri due ponti sull'Avisio:<ul class='etrList'><li>il Pont dei Vodi,<br>pensato per tenere la ferrovia lontana<br>dalle case e dalle coltivazioni</li><li>il ponte di S. Giovanni Bosco<br>per arrivare a Lavis<br>senza passare per le strade strette.</li></ul>"
         }
       },
-    }
+    ]
   },{
     "id":2,
     "titolo_pannello":"Camparta Media",
@@ -88,8 +89,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Villa Oss Mazzurana a Camparta Alta nei primi anni del 1900","Gambero d'acqua dolce "],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Villa Oss Mazzurana a Camparta Alta nei primi anni del 1900","Gambero d'acqua dolce "],
     "audio":["p2_de.mp3","p2_en.mp3","p2_etr.mp3","p2_it.mp3"],
-    "poi":{
-      5:{
+    "poi":[
+      {
+        "id":5,
         "it":{
           "nome": "Villa Oss Mazzurana",
           "testo":"Nella vicina Camparta Alta, Paolo Oss Mazzurana, podestà di Trento, costruì nel 1881 una splendida villa residenziale. La proprietà comprendeva un maso collegato alle stalle da viali intrecciati nel bosco, una residenza signorile di carattere rinascimentale e una piscina posta in cima al colle. Nel 1966 un improvviso incendio distrusse una buona parte della struttura.<br>Ad oggi si possono ancora ammirare la chiesetta in stile neogotico dedicata a Santa Elisabetta ed una bizzarra colombaia ai margini del parco.<br>A seguito di una ristrutturazione, la villa è ora sede di una Comunità Terapeutica."
@@ -106,8 +108,8 @@ const pannelli = [{
           "nome":"VILLA OSS MAZZURANA",
           "testo":"Nel 1881 il capo del comune di Trento Paolo Oss Mazzurana<br>costruì una nuova proprietà nella zona di Camparta Alta.<br>In un grande terreno si trovava una villa elegante<br>con una piscina e un edificio per i lavoratori<br>delle stalle vicine e dei campi.<br>Nel 1966 un incendio distrusse tante parti della villa<br>ma salvò la chiesetta <br>dedicata a Santa Elisabetta.<br>La villa è stata risistemata per accogliere una comunità terapeutica,<br>cioè un gruppo di persone<br>che sono aiutate a stare meglio."
         }
-      },
-      6:{
+      },{
+        "id":6,
         "it":{
           "nome": "I Mulini della “Val dei Molinari”",
           "testo":"La “Val dei Molinari” ospitava un tempo diversi mulini e il vecchio catasto ne riporta censiti ben 4: il Molin del Nones, il Molin dela Marina, il Molin dei Pulesi e il Molin dei Bufa. Dell’antica attività non è rimasto nulla, ma l’osservatore attento può ancora cogliere particolari rivelatori, come la macina adagiata presso l’argine a valle del ponte verso Camparta Bassa."
@@ -124,8 +126,8 @@ const pannelli = [{
           "nome":"I MULINI DELLA VAL DEI MULINARI",
           "testo":"In dialetto trentino 'Val dei Mulinari'<br> è la valle dove molti lavorano grazie ai mulini.<br>Nella valle si trovano:<br><ul><li>Il Molin del Nones</li><li>Il Molin dela Marina</li><li>Il Molin dei Pulesi</li><li>Il Molin dei Bufa</li></ul>Dell’attività dei mulini non è rimasto più niente, <br>ma verso la zona di Camparta Bassa, <br>si può vedere ancora una macina."
         }
-      },
-      7:{
+      },{
+        "id":7,
         "it":{
           "nome": "Il Rio Papa",
           "testo":"Il Rio Papa nasce da una sorgente nella zona de 'Le Gorghe', transita per Vigo Meano fino a Gazzadina, all’inizio della Val dei Molinari si unisce al Rio Cortesano e percorre Camparta Media e Camparta Bassa per raggiungere San Lazzaro e gettarsi nell'Avisio.<br>Lungo il suo corso forma delle pozze che sono fondamentali rifugi per la biodiversità, importanti siti di riproduzione per diverse specie di anfibi, come la rana temporaria, il rospo comune, la salamandra pezzata. Il Rio ospita anche una specie molto particolare di invertebrato: il Gambero d’acqua dolce (Austropotamobius pallipes). Questo raro crostaceo è protetto dalla legge in quanto minacciato di estinzione ed è un indicatore di buona qualità delle acque."
@@ -143,7 +145,7 @@ const pannelli = [{
           "testo":"Il rio Papa è un piccolo torrente<br>che nasce sotto la zona de “le Gorghe”.<br>Il Rio Papa passa per Vigo Meano fino a Gazzadina <br>entra nel rio Cortesano e raggiunge San Lazzaro <br>dove entra nell’Avisio.<br>Lungo il corso del torrente Rio Papa <br>si formano delle pozze di acqua<br>che diventano casa per la biodiversità,<br>cioè per diversi tipi di animali e di vegetali<br>come la rana temporaria e la salamandra pezzata.<br>Nel rio Papa vive anche il gambero di acqua dolce. <br>Questo gambero vive nell’acqua molto pulita.<br>Che indica che l’acqua è molto pulita.<br>Questo gambero È protetto perché sta scomparendo."
         }
       },
-    }
+    ]
   },{
     "id":3,
     "titolo_pannello":"Gazzadina",
@@ -152,8 +154,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Cernitrici presso la miniera di Pralungo","Posatori di “bolognini” (cubetti) in porfido"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Cernitrici presso la miniera di Pralungo","Posatori di “bolognini” (cubetti) in porfido"],
     "audio":["p3_de.mp3","p3_en.mp3","p3_etr.mp3","p3_it.mp3"],
-    "poi":{
-      8:{
+    "poi":[
+      {
+        "id":8,
         "it":{
           "nome":"La ca’ Comuna",
           "testo": "La campana della chiesa di San Martino, di cui si intravede il campanile sul dosso qui a fianco, suonava per richiamare i membri della comunità all’assemblea generale che si teneva poco più a sud, al Campo della Croce.  In quel luogo sorse in seguito la “ca’ Comuna”, un edificio tuttora esistente in cui erano conservati i libri della comunità fino al 1810."
@@ -170,8 +173,8 @@ const pannelli = [{
           "nome":"LA CÀ COMUNA ",
           "testo":"La campana della chiesa di San Martino<br>suonava per riunire i membri della comunità<br>all’assemblea generale.<br>La Cà Comuna è stata costruita in quel posto<br>per custodire i beni comuni<br>e ha conservato i libri della storia della comunità <br>fino all’inizio del 1800."
         }
-      },
-      9:{
+      },{
+        "id":9,
         "it":{
           "nome":"Il Porfido",
           "testo":"Circa 280 Milioni di anni fa continue eruzioni vulcaniche esplosive produssero enormi quantità di lava, ceneri e lapilli, che diedero origine agli spessi depositi di Porfido che oggi caratterizzano la Val di Cembra e i suoi dintorni. Questo prezioso materiale venne sfruttato dal Principe Vescovo di Trento già nel Cinquecento, in particolare per produrre lastre per i tetti. Le prime ditte organizzate nacquero però solo all’inizio del secolo scorso, quando l’attività estrattiva divenne il maggior settore economico del territorio, garantendo un certo benessere alle comunità locali."
@@ -188,8 +191,8 @@ const pannelli = [{
           "nome":"IL PORFIDO",
           "testo":"Il porfido è una roccia che si è formata moltissimi anni fa nella zona della Val di Cembra<br>dalle eruzioni vulcaniche.<br>Inizialmente il porfido veniva utilizzato per coprire i tetti.<br>Le prime ditte per lavorare il porfido con i macchinari<br>hanno portato lavoro e un certo benessere alla comunità."
         }
-      },
-      10:{
+      },{
+        "id":10,
         "it":{
           "nome":"L’Argento",
           "testo":"Il territorio del Meanese è molto ricco di giacimenti d’argento (perlopiù di galena argentifera), conosciuti fin dal Medioevo dai canòpi, gli antichi minatori che provenivano dalle regioni germaniche. Migliaia di pozzi verticali (i cadìni) e chilometri di cunicoli scavati a mano (le canòpe), attraversano tutto l’Altipiano del Monte Calisio. L’argento fu esaurito in pochi secoli a causa dell’intenso sfruttamento, ma nella zona di Meano l’attività mineraria fu ripresa in più fasi per un altro minerale che si trova nello stesso giacimento: la barite."
@@ -206,8 +209,8 @@ const pannelli = [{
           "nome":"L’ARGENTO ",
           "testo":"Il monte Calisio era ricco di argento,<br>che si trovava in un minerale prezioso<br>da cercare all’interno della roccia.<br>Già nel Medioevo venivano scavate gallerie nella montagna<br>per tirare fuori l’argento<br>ma dopo alcuni secoli questo minerale è terminato."
         }
-      },
-      11:{
+      },{
+        "id":11,
         "it":{
           "nome":"La barite",
           "testo":"In località Pralungo e agli Orti nei pressi di Montevaccino, erano presenti importanti miniere di barite attive fino agli anni ’60 del secolo scorso. Si tratta di un solfato di bario che gli antichi minatori medievali scartavano, ma che è molto utilizzato nell’industria moderna, ad esempio per la produzione di vernici o in medicina. Le sue caratteristiche principali sono il colore bianco candido e l’alto peso specifico. La barite veniva cernita e lavata accanto alle miniere e trasportata con una teleferica fino a valle, nei pressi della chiesa di Gazzadina."
@@ -225,7 +228,7 @@ const pannelli = [{
           "testo":"Vicino al paese di Montevaccino <br>c’erano importanti miniere di barite.<br>La barite è un minerale di colore bianco e molto pesante<br>e si usa per fare vernici e medicine."
         }
       }
-    }
+    ]
   },{
     "id":4,
     "titolo_pannello":"San Martino",
@@ -234,8 +237,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano", "Il bosco nei dintorni di Meano. Cartolina panoramica di Meano (anni '50)","Biacco"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano", "Il bosco nei dintorni di Meano. Cartolina panoramica di Meano (anni '50)","Biacco"],
     "audio":["p4_de.mp3","p4_en.mp3","p4_etr.mp3","p4_it.mp3"],
-    "poi":{
-      12:{
+    "poi":[
+      {
+        "id":12,
         "it":{
           "nome":"La chiesetta San Martino",
           "testo":"Dell’antica chiesa romanica rimangono solo alcune rovine e il campanile, che secondo la tradizione sarebbe stato ricavato dalla torre di Castel Meano. Le fonti nominano l’edificio dal 1485, ma gli scavi archeologici effettuati durante il restauro hanno messo in luce una fase più antica, oltre ad una struttura preesistente che potrebbe corrispondere al castello.<br>La chiesetta si raggiunge attraverso un sentiero nel bosco e rappresenta uno dei luoghi più suggestivi del Meanese."
@@ -252,8 +256,8 @@ const pannelli = [{
           "nome":"LA CHIESETTA DI SAN MARTINO",
           "testo":"La Chiesetta di San Martino è una chiesa molto antica e si trova a Meano.<br>Oggi della chiesetta resta solo una parte del campanile.<br>Si può raggiungere questa piccola chiesa <br>solo attraverso un sentiero nel bosco.<br>La zona collina dove si trova la chiesa è un luogo meraviglioso."
         }
-      },
-      13:{
+      },{
+        "id":13,
         "it":{
           "nome":"Il bosco sulla collina del Meanese",
           "testo":"Una fitta rete di sentieri permette di scoprire ambienti naturali unici che la collina del Meanese custodisce: boschi di latifoglie e conifere, praterie, torrenti e zone aride. Le aree boschive sono costituite principalmente da ornielli, querce, aceri, noccioli, pini silvestri, pini neri e in minor misura da roverella. Svariati arbusti e piante erbacee arricchiscono il sottobosco come l’erica, il brugo, i mirtilli e l’uva orsina."
@@ -270,8 +274,8 @@ const pannelli = [{
           "nome":"IL BOSCO SULLA COLLINA DI MEANO",
           "testo":"L’ambiente naturale di Meano è ricco di sentieri <br>che portano nei boschi.<br>Nei boschi ci sono molti tipi di piante:<ul><li>querce </li><li>aceri</li><li>noccioli</li><li>vari tipi di pini</li></ul>e nel sottobosco piante di erica, di mirtillo e uva ursina."
         }
-      },
-      14:{
+      },{
+        "id":14,
         "it":{
           "nome":"I rettili, abitanti del bosco",
           "testo":"I rettili, come la lucertola muraiola, il ramarro occidentale e l’orbettino, sono ampiamente diffusi nel territorio del Meanese. Le aree più soleggiate, i margini dei boschi e le campagne offrono un ambiente ideale a diversi serpenti non velenosi, come il biacco, il saettone  e la natrice tassellata che si incontra di frequente lungo i corsi d’acqua."
@@ -289,7 +293,7 @@ const pannelli = [{
           "testo":"In queste zone trovano l'ambiente giusto per vivere<br>anche alcuni piccoli rettili tra cui:<ul><li>la lucertola muraiola</li><li>il ramarro occidentale</li><li>serpenti non velenosi.</li></ul>"
         }
       }
-    }
+    ]
   },{
     "id":5,
     "titolo_pannello":"Meano",
@@ -298,8 +302,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano", "Interni della Villa Salvadori-Zanatta", "Villa Salvadori-Zanatta", "La Busa del Pomar"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano", "Interni della Villa Salvadori-Zanatta", "Villa Salvadori-Zanatta", "La Busa del Pomar"],
     "audio":["p5_de.mp3","p5_en.mp3","p5_etr.mp3","p5_it.mp3"],
-    "poi":{
-      15:{
+    "poi":[
+      {
+        "id":15,
         "it":{
           "nome":"Meano e la sua storia",
           "testo":"Il territorio del Meanese è ricco di testimonianze archeologiche di età preistorica e protostorica. Le prime tracce di frequentazione umana sono tombe con corredo di asce in pietra levigata risalenti al Neolitico finale.<br>All’età romana imperiale risalgono alcune monete e tombe venute alla luce a Meano e Cortesano, unica testimonianza di questo periodo che non permette purtroppo di provare il passaggio della Via Claudia Augusta. I tratti di strada selciata o scavata nella roccia tra San Lazzaro e Gazzadina e tra Meano, Gardolo di Mezzo e Maso Specchio (la cosiddetta “Via Rubra” per il colore rosso del porfido), sono certamente dei percorsi antichi, ma è difficile stabilire l’epoca di costruzione."
@@ -316,8 +321,8 @@ const pannelli = [{
           "nome":"MEANO E LA SUA STORIA",
           "testo":"Vicino ai paesi di Meano e Cortesano<br>sono state trovate:<ul> <li>tracce di strade antiche</li><li>oggetti costruiti da uomini di tempi molto antichi</li><li>tombe e strumenti di pietra per tagliare</li></ul>Gli studiosi hanno scoperto anche monete e tombe <br>del periodo dell’Impero romano.<br>Queste scoperte fanno pensare <br>che di lì potesse passare la via Claudia Augusta. <br>Tra S. Lazzaro e Gazzadina <br>e tra Meano e Gardolo di Mezzo <br>si possono vedere parti di antiche strade di pietra o scavate nella roccia."
         }
-      },
-      16:{
+      },{
+        "id":16,
         "it":{
           "nome":"Villa Salvadori-Zanatta",
           "testo":"La villa fu costruita nell’Ottocento come residenza estiva dei Salvadori-Zanatta di Mori. L’ultima esponente della famiglia, la baronessa Eleonora, nel 1998 donò la sua proprietà all’omonima Fondazione Salvadori-Zanatta, comprese le case e i terreni adiacenti, per un uso a favore degli abitanti di Meano.<br>La villa si trova nel centro del paese e proseguendo il percorso lungo la Via Claudia Augusta è possibile visitare il suo incantevole parco."
@@ -334,8 +339,8 @@ const pannelli = [{
           "nome":"VILLA SALVADORI-ZANATTA ",
           "testo":"Nel 1998 la baronessa Eleonora <br>donò al paese di Meano la villa, <br>il parco e le altre case.<br>La Fondazione Salvadori-Zanatta se ne prende cura,<br>come spazio aperto a tutte le famiglie del luogo."
         }
-      },
-      17:{
+      },{
+        "id":17,
         "it":{
           "nome":"L’Orto in Villa",
           "testo":"All’interno del Parco di Villa Salvadori-Zanatta si trova “L’Orto in Villa”, un orto-giardino didattico visitabile liberamente. La magia di questo luogo comunitario sta nella sua semplicità e nelle tante piccole meraviglie della natura che si trovano al suo interno. Tutto ciò che serve per scoprire questo regno di biodiversità e agricoltura sostenibile sono occhi e mente spalancati, buon olfatto e udito."
@@ -352,8 +357,8 @@ const pannelli = [{
           "nome":"L’ORTO IN VILLA",
           "testo":"Nel parco della Villa<br>si puo’ visitare l’Orto in Villa<br>coltivato in modo naturale.<br>In questo orto ci sono tante piante diverse da vedere e annusare."
         }
-      },
-      18:{
+      },{
+        "id":18,
         "it":{
           "nome":"La Busa del Pomar",
           "testo":"A poca distanza dal paese di Meano, nascosta nella boscaglia, c’è la “Busa del Pomar”, una delle tante antiche miniere presenti sull’Altipiano del Monte Calisio (le cosiddette canòpe).<br>Fu chiusa e riaperta a più riprese prima per l’estrazione dell’argento, nel Medioevo, e poi della barite nel secolo scorso. Durante la Seconda Guerra Mondiale fu utilizzata come rifugio antiaereo e in seguito per la coltivazione dei funghi. Oggi è un habitat ideale per i pipistrelli. <br>Il nome della Busa deriva dal Maso Pomar che sorge poco lontano, così chiamato per il meleto che lo circondava."
@@ -371,7 +376,7 @@ const pannelli = [{
           "testo":"Nei boschi di Meano si trova un’antica miniera, <br>chiamata la Busa del Pomar.<br>La miniera è una stretta galleria scavata tra la roccia <br>per cercare i minerali. <br>Nel Medioevo si scavava per cercare l’argento,<br>nel secolo scorso è stata scoperta la barite.<br>Durante la Seconda Guerra Mondiale la miniera è stata usata come rifugio  <br>e dopo per far crescere funghi da mangiare. <br>Oggi è un ambiente ideale per i pipistrelli.<br>Salendo dalla strada troviamo Maso Pomar <br>che è una grande casa in mezzo agli alberi di mele. "
         }
       }
-    }
+    ]
   },{
     "id":6,
     "titolo_pannello":"Gardolo di Mezzo",
@@ -380,8 +385,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Cascata del Mughetto", "Cascata del Mughetto", "Cascata del Mughetto", "Cascata del Mughetto", "Gardolo di Mezzo (settore Garm 2). Le due monumentali strutture a tumulo in corso di scavo - Archivio Ufficio beni archeologici, Soprintendenza per i beni culturali della Provincia autonoma di Trento"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta, coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","Cascata del Mughetto", "Cascata del Mughetto", "Cascata del Mughetto", "Cascata del Mughetto", "Gardolo di Mezzo (settore Garm 2). Le due monumentali strutture a tumulo in corso di scavo - Archivio Ufficio beni archeologici, Soprintendenza per i beni culturali della Provincia autonoma di Trento"],
     "audio":["p6_de.mp3","p6_en.mp3","p6_etr.mp3","p6_it.mp3"],
-    "poi":{
-      19:{
+    "poi":[
+      {
+        "id":19,
         "it":{
           "nome":"Il sito archeologico di Gardolo di Mezzo",
           "testo":"Il sito di Gardolo di Mezzo si trova su un vasto terrazzo naturalmente protetto a nord e a sud da due corsi d'acqua e delimitato  a est dalle pendici del Doss de La Luna, sulla cui sommità sono presenti pochi resti di un castello medievale.<br>Nel 2003 un cantiere edile ha messo in luce un’area archeologica molto estesa e di grande interesse scientifico, studiata dalla Soprintendenza per i Beni culturali della Provincia autonoma di Trento. Le testimonianze più antiche risalgono all’età del Rame e comprendono impianti di lavorazione del metallo, strutture funerarie e un’area abitativa. Nella successiva età del Bronzo è documentata la presenza di un luogo sacro con due monumentali strutture a tumulo e di una più recente necropoli a cremazione.<br>Le tracce archeologiche dimostrano che l’area è stata occupata anche nell’età del Ferro e successivamente in epoca tardoantica e altomedievale."
@@ -398,8 +404,8 @@ const pannelli = [{
           "nome":"SITO ARCHEOLOGICO DI GARDOLO DI MEZZO",
           "testo":"Il territorio di Gardolo di Mezzo <br>è una terrazza naturale tra due corsi d’acqua<br>dove sono stati trovati resti<br>che indicano la presenza stabile<br>di popolazioni fin dall’antichità.<br>I primi abitanti di Gardolo di Mezzo lavoravano il rame."
         }
-      },
-      20:{
+      },{
+        "id":20,
         "it":{
           "nome":"Il Rio Carpine e la cascata del Mughetto",
           "testo":"Il corso del Rio di Carpine, il cui nome deriva verosimilmente dal carpino nero, inizia nei pressi di Montevaccino e percorre una valle selvaggia sita tra gli abitati di Meano e Gardolo di Mezzo per proseguire poi verso Gardolo. A metà del suo corso, il Rio incontra un salto di roccia e forma la Cascata del Mughetto. Le sue acque limpide ospitano il gambero di fiume e diversi anfibi, quali la rana comune e la salamandra pezzata. L’umidità e l’ombra facilitano lo sviluppo di un rigoglioso sottobosco composto da felci ed edera."
@@ -417,7 +423,7 @@ const pannelli = [{
           "testo":"Il Rio Carpine nasce a Montevaccino<br>passa tra Meano e Gardolo di Mezzo<br>e arriva a Gardolo.<br>Forse il suo nome deriva<br> da quello della pianta Carpino Nero.<br>Durante il suo corso forma la Cascata del Mughetto.<br>Nel Rio Carpine vivono diversi animali<br>ad esempio: il gambero di fiume, la rana e la salamandra.<br>Vicino al Rio Carpine crescono felci ed edere."
         }
       }
-    }
+    ]
   },{
     "id":7,
     "titolo_pannello":"Fachina",
@@ -426,8 +432,9 @@ const pannelli = [{
     "didascalia_en":["Le piante spontanee lungo la Via Claudia Augusta,  coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","I Masi Saracini, azienda agricola di notevoli dimensioni collocata a sud di Cortesano (primi anni del '900) - Gruppo Fotoamatori Meano","Antico ponte sulla Roggia di Gardolo"],
     "didascalia_de":["Le piante spontanee lungo la Via Claudia Augusta,  coltivate anche presso L'Orto in Villa nel Parco di Villa Salvadori-Zanatta a Meano","I Masi Saracini, azienda agricola di notevoli dimensioni collocata a sud di Cortesano (primi anni del '900) - Gruppo Fotoamatori Meano","Antico ponte sulla Roggia di Gardolo"],
     "audio":["p7_de.mp3","p7_en.mp3","p7_etr.mp3","p7_it.mp3"],
-    "poi":{
-      21:{
+    "poi":[
+      {
+        "id":21,
         "it":{
           "nome":"L’Orrido di Ponte Alto",
           "testo":"Proseguendo lungo la Via Claudia Augusta si giunge all'Orrido di Ponte Alto nei pressi di Cognola. È una profonda gola scavata dalle acque tumultuose del Torrente Fersina nel corso di migliaia di anni, nella quale si possono ammirare due grandi cascate.<br>L’Orrido riveste un notevole interesse anche nell’ambito della storia dell’ingegneria idraulica. Il primo sbarramento costruito per trattenere i detriti trasportati dal torrente (la Serra di Ponte Alto) risale infatti al Cinquecento.<br>L’Orrido è accessibile al pubblico con delle visite guidate (<a href='https://www.ecoargentario.it/orridopontealto#regdl=orrido-di-ponte-alto-visita-guidata' target='_blank' title='direct link'>www.orridopontealto.it</a>)."
@@ -444,8 +451,8 @@ const pannelli = [{
           "nome":"L’ORRIDO DI PONTE ALTO",
           "testo":"Il torrente Fersina scende dalla Valle dei Mocheni <br>fino a Trento. <br>Vicino a Cognola le acque precipitano dalla roccia<br>e in migliaia di anni<br>hanno scavato una valle stretta e profonda <br>chiamata Orrido di Ponte Alto. <br>In questo luogo ora ci sono due grandi cascate.<br>Nel 1500 è stata costruita la prima diga in legno<br>per fermare i pezzi di roccia e altri materiali trasportati dal torrente, <br>che potevano creare danni per la città<br>quando il torrente era in piena."
         }
-      },
-      22:{
+      },{
+        "id":22,
         "it":{
           "nome":"I Masi Saracini",
           "testo":"Salendo da Gardolo di Mezzo a Cortesano, s’incontra un pianoro tenuto in gran parte a prato in cui sorge il complesso dei Masi Saracini, un importante insediamento risalente almeno al Cinquecento.<br>La casa padronale è un massiccio edificio con un grande parco, all’ingresso del quale si trova una cappella settecentesca dedicata ai Santi Leonardo e Antonio."
@@ -462,8 +469,8 @@ const pannelli = [{
           "nome":"I MASI SARACINI",
           "testo":"I Masi Saracini si trovano tra Gardolo di Mezzo e Cortesano <br>e sono alcune ville di campagna del 1500:<br>tra queste la grande casa padronale, <br>circondata da un parco.<br> All’ingresso del parco c’è una piccola chiesetta <br>che risale al 1700."
         }
-      },
-      23:{
+      },{
+        "id":23,
         "it":{
           "nome":"La Roggia di Gardolo",
           "testo":"La roggia di Gardolo, conosciuta con il termine dialettale Ròza, è un canale artificiale che scende da Montevaccino, costeggia Gardolo di Mezzo, attraversa l’abitato di Gardolo e confluisce nell'Adige. Le rogge erano utilizzate fin dal Medioevo per il trasporto del legname e per alimentare i mulini.<br>Nel 1996, in seguito a una serie di piene, venne costruita una piccola diga all'altezza di Gardolo di Mezzo per regolare il regime delle acque e per produrre energia idroelettrica. Fu poi interrato un tratto della roggia che attraversava il paese di Gardolo, abbattendo il ponticello che si trovava nei pressi della chiesa."
@@ -481,6 +488,6 @@ const pannelli = [{
           "testo":"La Roggia di Gardolo è un piccolo canale costruito dall’uomo <br>ed è chiamata in dialetto Ròza.<br>La Roggia di Gardolo parte da Montevaccino <br>passa da diversi paesi <br>e arriva nel fiume Adige.<br>Tanti anni fa le rogge erano usate<br>per trasportare il legno <br>e per far girare le ruote dei mulini <br>con la forza dell’acqua. <br>Quando pioveva molto<br>l’acqua inondava i paesi<br>così nel 1996 è stata costruita una piccola diga <br>per rallentare l’acqua della roggia."
         }
       }
-    }
+    ]
   }
 ]

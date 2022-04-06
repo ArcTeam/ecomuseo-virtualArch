@@ -10,8 +10,6 @@ const extent = [[46.1,11.0],[46.2,11.2]]
 
 
 $(document).ready(function() {
-  console.log(pannelli[0]['poi'][1][lang]['nome']);
-  console.log(pannelli);
   $("body").on('click','.link-poi', function(e){
     e.preventDefault();
     let poi = $(this).data('poi');
@@ -87,10 +85,10 @@ function onLocationFound(e) {
 
 function onEachPoi(feature, layer) {
   let pannello = parseInt(feature.properties.pannello) - 1;
-  let poi = feature.properties.poi;
-  let title = '<h5>'+pannelli[pannello]['poi'][poi][lang]['nome']+'</h5>';
-  let body = '<p>'+cutString(pannelli[pannello]['poi'][poi][lang]['testo'],30) + '...</p>';
-  let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi+']">#view poi</a>';
+  let poi = pannelli[pannello]['poi'].filter( i => i['id'] == feature.properties.poi);
+  let title = '<h5>'+poi[0][lang]['nome']+'</h5>';
+  let body = '<p>'+cutString(poi[0][lang]['testo'],30) + '...</p>';
+  let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi[0]['id']+']">#view poi</a>';
   var popupContent = title+body+link;
   layer.bindPopup(popupContent);
 }

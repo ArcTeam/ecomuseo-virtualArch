@@ -28,8 +28,12 @@ $(document).ready(function() {
     setLang($(this).val())
     location.reload();
   })
-  $("body").on('click',"[name=fontSize]", function(){
-    fontSize($(this).val())
+  $("body").on('click',"[name=fontSize]", function(){ fontSize($(this).val()) })
+  $("body").on('click','.menuItem', function(e){
+    e.preventDefault();
+    let panel = $(this).data('panel');
+    localStorage.setItem("poi", panel);
+    window.location.href='poi.html';
   })
 });
 
