@@ -86,16 +86,34 @@ function onLocationFound(e) {
 function onEachPoi(feature, layer) {
   let pannello = parseInt(feature.properties.pannello) - 1;
   let poi = pannelli[pannello]['poi'].filter( i => i['id'] == feature.properties.poi);
+  let panel = '<h6 class="text-center">Tappa '+feature.properties.pannello+': '+feature.properties.titolo+'</h6>';
   let title = '<h5>'+poi[0][lang]['nome']+'</h5>';
   let body = '<p>'+cutString(poi[0][lang]['testo'],30) + '...</p>';
   let link = '<a href="#" class="link-poi" data-poi="['+pannello+','+poi[0]['id']+']">#view poi</a>';
-  var popupContent = title+body+link;
+  var popupContent = panel+title+body+link;
   layer.bindPopup(popupContent);
 }
 
 function onEachPanel(feature,layer){
-  let panel = feature.properties.nome;
-  layer.bindTooltip(panel,{direction:'top',permanent:true,offset: L.point({x: 0, y: -25})}).openTooltip();
+  let popup='';
+  let prop = feature.properties;
+  let coo = feature.geometry.coordinates;
+
+  let img = "asset/media/pan"+prop.id+"/foto/1.jpg";
+  let pannello = parseInt(prop.id) - 1;
+  let nome = feature.properties.nome;
+  let titolo = feature.properties.titolo;
+  let gps = coo[0].toFixed(2)+","+coo[1].toFixed(2);
+
+  popup += '<div class="card" style="width: 200px;">';
+  popup += '<img src="'+img+'" class="card-img-top">';
+  popup += '<div class="card-body text-center">';
+  popup += '<h6 class="card-text my-3">'+nome+'</h6>';
+  popup += '<h5 class="">'+titolo+'</h5>';
+  popup += '<a href="#" class="link-poi" data-poi="['+pannello+']">#view panel</a>';
+  popup += '</div>';
+  popup += '</div>';
+  layer.bindPopup(popup);
 }
 
 function sentieroStyle() {

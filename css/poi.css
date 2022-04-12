@@ -1,3 +1,5 @@
 @import url('main.css');
 .mainTitle{width:100%;}
 .imgTitle{width:50%;}
+
+audio{display: block; width: 100%;}
