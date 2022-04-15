@@ -35,6 +35,12 @@ $(document).ready(function() {
     localStorage.setItem("poi", panel);
     window.location.href='poi.html';
   })
+  $("body").on('click','.link-poi', function(e){
+    e.preventDefault();
+    let poi = $(this).data('poi');
+    localStorage.setItem("poi", poi);
+    window.location.href='poi.html';
+  })
 });
 
 function initHeader(){

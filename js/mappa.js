@@ -10,12 +10,7 @@ const extent = [[46.1,11.0],[46.2,11.2]]
 
 
 $(document).ready(function() {
-  $("body").on('click','.link-poi', function(e){
-    e.preventDefault();
-    let poi = $(this).data('poi');
-    localStorage.setItem("poi", poi);
-    window.location.href='poi.html';
-  })
+  
 });
 
 var map = L.map('map').fitBounds(extent);
